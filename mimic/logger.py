@@ -20,7 +20,7 @@ class WandbLogger():
                                 project=project,
                                 job_type=task,
                                 config=config,
-                                save_code=path,
+                                save_code=True,
                                 dir=path,
                                 sync_tensorboard=False
                                 )

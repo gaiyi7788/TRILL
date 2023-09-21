@@ -244,8 +244,8 @@ def main():
               If omitted, default settings are used. This is the preferred way to run experiments.")
     parser.add_argument("--exp", type=str, default='default', help="experiment name")
     parser.add_argument("--env", type=str, default='door', help="environment name")
-    parser.add_argument("--subtask", type=int, default=0, help="subtask ID: 0-2")
-    parser.add_argument("--data", type=str, default='dataset', help="prefix of data file")
+    parser.add_argument("--subtask", type=int, default=0, help="subtask ID: 0-2") # door 0: Walking to the door
+    parser.add_argument("--data", type=str, default='demo250', help="prefix of data file")
     parser.add_argument("--device", type=str, default=None, help="device to use: cuda or cpu")
     args = parser.parse_args()
 

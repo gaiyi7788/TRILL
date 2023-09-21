@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 import torchvision
-from robomimic.models.base_nets import Randomizer
+from robomimic.models.obs_core import Randomizer
 import robomimic.utils.tensor_utils as TensorUtils
 
 
